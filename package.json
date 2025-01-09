@@ -18,5 +18,8 @@
     "url": "https://github.com/giuseppebrandi-byui/CSE-341-ContactsProject/issues"
   },
   "homepage": "https://github.com/giuseppebrandi-byui/CSE-341-ContactsProject#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
 }
