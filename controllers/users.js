@@ -27,7 +27,6 @@ const createUser = async (req, res) => {
     birthday: req.body.birthday
   }
   const response = await mongodb.getDatabase().db().collection('users').insertOne(user);
-  console.log("This is a response", response);
   if (response.acknowledged) {
     res.status(204).send();
   } else {
