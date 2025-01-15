@@ -5,7 +5,7 @@
     "title": "Contacts Project",
     "description": "CSE 341 Contact Project"
   },
-  "host": "cse-341-contactsproject.onrender.com",
+  "host": "localhost:3000",
   "basePath": "/",
   "schemes": [
     "http",
